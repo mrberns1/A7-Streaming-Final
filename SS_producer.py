@@ -1,14 +1,14 @@
 """
-Author: Sammie Bever
-Date: February 3, 2023 
+Author: Melissa Bernskoetter (edited from Sammie Bever's module 6 repository).
+Date: February 28, 2023 
 Class: Streaming Data 
-Assignment: Module 05 
+Assignment: Module 07 
 This program creates a producer and multiple task queues (RabbitMQ).
 It reads data from the smoker-temps.csv file for smart smokers.
 """
 ########################################################
 
-# import python modules
+# import python modules, only import what you need
 import pika
 import sys
 import webbrowser
@@ -23,12 +23,13 @@ csv_file = "smoker-temps.csv"
 smoker_queue = "01-smoker"
 foodA_queue = "02-food-A"
 foodB_queue = "03-food-B"
-show_offer = True # (RabbitMQ Server option - T=on, F=off)
+show_offer = True # (RabbitMQ Server option - True=on, False=off)
 
 ########################################################
 
 # define functions
-## define option to open RabbitMQ admin webpage
+## define option to open RabbitMQ admin webpage. This is your choice, but it is helpful to see
+## the queues running in RabbitMQ along with the terminals. 
 def offer_rabbitmq_admin_site(show_offer):
     # includes show_offer variable - option to turn off the offer later in the code
     if show_offer == True:
@@ -39,13 +40,18 @@ def offer_rabbitmq_admin_site(show_offer):
             webbrowser.open_new("http://localhost:15672/#/queues")
             print()
 
-## define delete_queue
+## define delete_queue. The host and queue_name are both strings with a designation of 'str'.
 def delete_queue(host: str, queue_name: str):
     """
-    Delete queues each time we run the program to clear out old messages.
+    Delete queues each time we run the program to clear out old messages. Even if there are no 'old' 
+    messages, this may be helpful to do anyway to ensure all items are clear. This can prevent 
+    the queue from becoming too slow and causing errors.
     """
+    # This creates a connection to the RabbitMQ server
     conn = pika.BlockingConnection(pika.ConnectionParameters(host))
+    # This creates a communication channel
     ch = conn.channel()
+    # This clears previous queues
     ch.queue_delete(queue=queue_name)
 
 ## define a message to send to queue
@@ -85,13 +91,17 @@ def get_message_from_csv(input_file):
     Read from csv input file. Send each row as a message to the queue.
     """ 
 
-    # read from a csv file
+    # read from a csv file. The "r" designates read.
     input_file = open(csv_file, "r")
+    # because csv files are separated by a comma, that is what we put in as the delimiter.
     reader = csv.reader(input_file, delimiter=',')
 
-    # Skip reading the header row of csv
+    # Skip reading the header row of csv. We are using our own names, so the originals are not needed
+    # Original names: Time(UTC), Channel 1, Channel 2, Channel 3
     next(reader)
 
+    # Now create the queue messages that will be sent. 
+    # This is how we can get the messages to the consumers.
     for row in reader:
         # define the input strings that we want to convert into float data types
         input_string_row1 = row[1]
@@ -133,6 +143,8 @@ def get_message_from_csv(input_file):
 
         # slowly read a row half minute (30 seconds)
         # can change this to 1 second for testing purposes - makes it go faster
+        # play with the times as needed for your specific data set. Some may need to go
+        # slower or faster to prevent errors. 
         time.sleep(30)        
 
 ########################################################
