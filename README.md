@@ -16,14 +16,15 @@ Professor: Denise Case
 General instructions:
 1. Look over all files to ensure they have the data you need. 
 2. Start with the producer file, editing the code to match what you need.
-3. Once you have finished editing the producer, open a RabbitMQ (admin) terminal window.
+3. Once you have finished editing the producer, open a Anaconda (admin) terminal window.
 4. Make sure the producer runs.
 5. Open and begin editing the consumer(s).
-6. Once you have finished editing the consumer(s), open 4 RabbitMQ (admin) terminal windows.
+6. Once you have finished editing the consumer(s), open 2 Anaconda (admin) terminal windows, and have
+   the RabbitMQ queue website open (click y when prompted). I will have a picture below.
 7. Start with the producer, running the file and making sure it is sending data.
-8. Have the other 3 windows be the consumer(s) that will receive the data/messages.
+8. Have the other window be the consumer(s) that will receive the data/messages.
 9. Watch for errors, (temperature changes), and stalling.
-10. Take screenshots of all 4 terminals open and running. 
+10. Take screenshots of all  terminals open and running. 
 
 *It may be helpful to take screenshots as you finish each section to show in your README file.
 *I will have screenshots for each instruction. They will be below this introduction.
@@ -56,7 +57,8 @@ General instructions:
 6. terminal example (prior to codes running)
 """ you need to cd your terminal to match the folder where your code is """
 """ example: cd "C:\Users\15736\Documents\A7-Streaming-Final" """
-""" all 4 terminals will need to have a cd for the folder """
+""" all terminals will need to have a cd for the folder """
+
 7. producer running
-8. consumers running
+8. consumer(s) running
 10. completed run
