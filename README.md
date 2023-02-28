@@ -22,7 +22,7 @@ General instructions:
 6. Once you have finished editing the consumer(s), open 4 RabbitMQ (admin) terminal windows.
 7. Start with the producer, running the file and making sure it is sending data.
 8. Have the other 3 windows be the consumer(s) that will receive the data/messages.
-9. Watch for errors (temperature changes), and stalling.
+9. Watch for errors, (temperature changes), and stalling.
 10. Take screenshots of all 4 terminals open and running. 
 
 *It may be helpful to take screenshots as you finish each section to show in your README file.
@@ -42,3 +42,21 @@ General instructions:
    RabbitMQ terminal running with producer
    ![rabbitmq admin](RabbitMQ_page.JPG)
    ![rabbitmq terminal](smoker_producer_running.JPG)
+
+5. consumer code
+![consumer example1](Consumer_example1.JPG)
+![consumer example2](Consumer_example2.JPG)
+![consumer example3](Consumer_example3.JPG)
+![consumer example4](Consumer_example4.JPG)
+![consumer example5](Consumer_example5.JPG)
+![consumer example6](Consumer_example6.JPG)
+![consumer example7](Consumer_example7.JPG)
+![consumer example8](Consumer_example8.JPG)
+![consumer example9](Consumer_example9.JPG)
+6. terminal example (prior to codes running)
+""" you need to cd your terminal to match the folder where your code is """
+""" example: cd "C:\Users\15736\Documents\A7-Streaming-Final" """
+""" all 4 terminals will need to have a cd for the folder """
+7. producer running
+8. consumers running
+10. completed run

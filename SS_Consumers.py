@@ -1,14 +1,15 @@
 """
-Author: Sammie Bever
-Date: February 9, 2023 
+Author: Melissa Bernskoetter (edited from Sammie Bever's module 6 repository)
+Date: February 28, 2023 
 Class: Streaming Data 
-Assignment: Module 06 
+Assignment: Module 7 
 This program creates a consumer with 3 callbacks to go with the bbq_producer file.
 To exit program, press CTRL+C.
 """
 ########################################################
 
-# import python modules
+# import python modules. Only import what you need. For the consumer 
+# we need a deque. 
 import pika
 import sys
 import time
@@ -22,11 +23,11 @@ csv_file = "smoker-temps.csv"
 smoker_queue = "01-smoker"
 foodA_queue = "02-food-A"
 foodB_queue = "03-food-B"
-show_offer = True # (RabbitMQ Server option - T=on, F=off)
+show_offer = True # (RabbitMQ Server option - True=on, False=off). This is your choice.
 
 # set alert limits
-smoker_alert_limit = 15 # temp decrease of this amount sends a smoker alert
-food_stall_alert_limit = 1 # temp change of this amount sends a food stall alert
+smoker_alert_limit = 15 # temp decrease of this amount sends a smoker alert. You can change this.
+food_stall_alert_limit = 1 # temp change of this amount sends a food stall alert. You can change this.
 
 # Time windowing - Create deques to store that last n messages
 smoker_deque = deque(maxlen=5)  # limited to 5 items (the 5 most recent readings)
@@ -113,11 +114,11 @@ def foodA_callback(ch, method, properties, body):
 
     # set up food stall alert - any temp change (+/-)
     if abs(foodA_temp_change) <= food_stall_alert_limit:
-        print(f">>> Food stall alert! The temperature of food A has changed 1 F or less in 10 min (or 20 readings). \n          Food A temp change = {foodA_temp_change} degrees F = {foodA_current_temp} - {foodA_deque_item1_temp}")
+        print(f">>> Food stall alert! The temperature of food A has changed 1 degree F or less in 10 min (or 20 readings). \n          Food A temp change = {foodA_temp_change} degrees F = {foodA_current_temp} - {foodA_deque_item1_temp}")
 
 def foodB_callback(ch, method, properties, body):
     """ Define behavior on getting a message in the 03-food-B queue.
-    Monitor food B temperature. Send an alert if the temp of food B changes (+/-) 1 F or less in 10 min (or 20 readings). """
+    Monitor food B temperature. Send an alert if the temp of food B changes (+/-) 1 degree F or less in 10 min (or 20 readings). """
     # receive & decode the binary message body to a string
     print(f" [x] Received {body.decode()} on 03-food-B")
     # simulate work
@@ -151,7 +152,7 @@ def foodB_callback(ch, method, properties, body):
 
     # set up food stall alert - any temp change (+/-)
     if abs(foodB_temp_change) <= food_stall_alert_limit:
-        print(f">>> Food stall alert! The temperature of food B has changed 1 F or less in 10 min (or 20 readings). \n          Food B temp change = {foodB_temp_change} degrees F = {foodB_current_temp} - {foodB_deque_item1_temp}")
+        print(f">>> Food stall alert! The temperature of food B has changed 1 degree F or less in 10 min (or 20 readings). \n          Food B temp change = {foodB_temp_change} degrees F = {foodB_current_temp} - {foodB_deque_item1_temp}")
 
 ########################################################
 
