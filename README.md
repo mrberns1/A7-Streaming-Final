@@ -30,5 +30,15 @@ General instructions:
 """ I am using VS Code to edit the codes and README file """
 *** BE SURE TO SAVE AS YOU GO AND COMMIT CHANGES TO AVOID LOSING ANY EDITS ***
 
-1.
-![producer example1](Producer example 1.JPG)
+2. full code 
+![producer example1](Producer_example1.JPG)
+![producer example2](Producer_example2.JPG)
+![producer example3](Producer_example3.JPG)
+![producer example4](Producer_example4.JPG)
+![producer example5](Producer_example5.JPG)
+![producer example6](Producer_example6.JPG)
+
+3.-4. RabbitMQ admin queue (once it opens, use username: guest and password: guest)
+   RabbitMQ terminal running with producer
+   ![rabbitmq admin](RabbitMQ_page.JPG)
+   ![rabbitmq terminal](smoker_producer_running.JPG)
