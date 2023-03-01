@@ -1,0 +1,329 @@
+(base) PS C:\Windows\system32> cd "C:\Users\15736\Documents\A7-Streaming-Final"
+(base) PS C:\Users\15736\Documents\A7-Streaming-Final> python SS_consumers.py
+ [*] Ready for work. To exit press CTRL+C
+ [x] Received [5/22/2021 12:20, 84.2] on 01-smoker
+ [x] Received [5/22/2021 12:20, 84.2] on 01-smoker
+ [x] Received [5/22/2021 12:21, 87.6] on 01-smoker
+ [x] Received [5/22/2021 12:21, 87.6] on 01-smoker
+ [x] Received [5/22/2021 12:22, 86.3] on 01-smoker
+ [x] Received [5/22/2021 12:22, 86.3] on 01-smoker
+ [x] Received [5/22/2021 12:23, 92] on 01-smoker
+ [x] Received [5/22/2021 12:23, 92] on 01-smoker
+ [x] Received [5/22/2021 12:24, 96.8] on 01-smoker
+ [x] Received [5/22/2021 12:24, 96.8] on 01-smoker
+ [x] Received [5/22/2021 12:25, 100.6] on 01-smoker
+ [x] Received [5/22/2021 12:25, 100.9] on 01-smoker
+ [x] Received [5/22/2021 12:25, 100.9] on 01-smoker
+ [x] Received [5/22/2021 12:26, 104.8] on 01-smoker
+ [x] Received [5/22/2021 12:26, 104.8] on 01-smoker
+ [x] Received [5/22/2021 12:27, 108.2] on 01-smoker
+ [x] Received [5/22/2021 12:27, 108.2] on 01-smoker
+ [x] Received [5/22/2021 12:28, 111.4] on 01-smoker
+ [x] Received [5/22/2021 12:28, 111.4] on 01-smoker
+ [x] Received [5/22/2021 12:29, 114.2] on 01-smoker
+ [x] Received [5/22/2021 12:29, 114.2] on 01-smoker
+ [x] Received [5/22/2021 12:30, 116.9] on 01-smoker
+ [x] Received [5/22/2021 12:30, 116.9] on 01-smoker
+ [x] Received [5/22/2021 12:31, 119.4] on 01-smoker
+ [x] Received [5/22/2021 12:31, 119.4] on 01-smoker
+ [x] Received [5/22/2021 12:32, 120.1] on 01-smoker
+ [x] Received [5/22/2021 12:32, 120.1] on 01-smoker
+ [x] Received [5/22/2021 12:33, 106.2] on 01-smoker
+ [x] Received [5/22/2021 12:33, 106.2] on 01-smoker
+ [x] Received [5/22/2021 12:34, 103.5] on 01-smoker
+>>> Smoker alert! The temperature of the smoker has decreased by 15 F or more in 2.5 min (or 5 readings).
+          Smoker temp decrease = 16.6 degrees F = 120.1 - 103.5
+ [x] Received [5/22/2021 12:34, 103.5] on 01-smoker
+>>> Smoker alert! The temperature of the smoker has decreased by 15 F or more in 2.5 min (or 5 readings).
+          Smoker temp decrease = 16.6 degrees F = 120.1 - 103.5
+ [x] Received [5/22/2021 12:35, 105.3] on 01-smoker
+ [x] Received [5/22/2021 12:35, 105.3] on 01-smoker
+ [x] Received [5/22/2021 12:36, 106.9] on 01-smoker
+ [x] Received [5/22/2021 12:36, 106.9] on 01-smoker
+ [x] Received [5/22/2021 12:37, 111.9] on 01-smoker
+ [x] Received [5/22/2021 12:37, 111.9] on 01-smoker
+ [x] Received [5/22/2021 12:38, 114.2] on 01-smoker
+ [x] Received [5/22/2021 12:38, 114.2] on 01-smoker
+ [x] Received [5/22/2021 12:39, 115.5] on 01-smoker
+ [x] Received [5/22/2021 12:39, 115.5] on 01-smoker
+ [x] Received [5/22/2021 12:40, 112.6] on 01-smoker
+ [x] Received [5/22/2021 12:40, 112.6] on 01-smoker
+ [x] Received [5/22/2021 12:41, 118.8] on 01-smoker
+ [x] Received [5/22/2021 12:41, 118.8] on 01-smoker
+ [x] Received [5/22/2021 12:42, 113.2] on 01-smoker
+ [x] Received [5/22/2021 12:42, 113.2] on 01-smoker
+ [x] Received [5/22/2021 12:43, 126.7] on 01-smoker
+ [x] Received [5/22/2021 12:43, 126.7] on 01-smoker
+ [x] Received [5/22/2021 12:44, 130] on 01-smoker
+ [x] Received [5/22/2021 12:44, 130] on 01-smoker
+ [x] Received [5/22/2021 12:45, 130] on 01-smoker
+ [x] Received [5/22/2021 12:45, 130] on 01-smoker
+ [x] Received [5/22/2021 12:46, 137.3] on 01-smoker
+ [x] Received [5/22/2021 12:46, 137.3] on 01-smoker
+ [x] Received [5/22/2021 12:47, 139.5] on 01-smoker
+ [x] Received [5/22/2021 12:47, 139.5] on 01-smoker
+ [x] Received [5/22/2021 12:48, 141.8] on 01-smoker
+ [x] Received [5/22/2021 12:48, 141.8] on 01-smoker
+ [x] Received [5/22/2021 12:49, 143.6] on 01-smoker
+ [x] Received [5/22/2021 12:49, 143.6] on 01-smoker
+ [x] Received [5/22/2021 12:50, 145] on 01-smoker
+ [x] Received [5/22/2021 12:50, 145] on 01-smoker
+ [x] Received [5/22/2021 12:51, 146.2] on 01-smoker
+ [x] Received [5/22/2021 12:51, 146.2] on 01-smoker
+ [x] Received [5/22/2021 12:52, 147.5] on 01-smoker
+ [x] Received [5/22/2021 12:52, 147.5] on 01-smoker
+ [x] Received [5/22/2021 12:53, 148.7] on 01-smoker
+ [x] Received [5/22/2021 12:53, 148.7] on 01-smoker
+ [x] Received [5/22/2021 12:54, 149.9] on 01-smoker
+ [x] Received [5/22/2021 12:54, 149.9] on 01-smoker
+ [x] Received [5/22/2021 12:55, 151.1] on 01-smoker
+ [x] Received [5/22/2021 12:55, 151.2] on 01-smoker
+ [x] Received [5/22/2021 12:55, 151.2] on 01-smoker
+ [x] Received [5/22/2021 12:56, 152.4] on 01-smoker
+ [x] Received [5/22/2021 12:56, 152.4] on 01-smoker
+ [x] Received [5/22/2021 12:57, 153.4] on 01-smoker
+ [x] Received [5/22/2021 12:57, 153.4] on 01-smoker
+ [x] Received [5/22/2021 12:58, 154.5] on 01-smoker
+ [x] Received [5/22/2021 12:58, 154.5] on 01-smoker
+ [x] Received [5/22/2021 12:59, 155.6] on 01-smoker
+ [x] Received [5/22/2021 12:59, 155.6] on 01-smoker
+ [x] Received [5/22/2021 13:00, 156.5] on 01-smoker
+ [x] Received [5/22/2021 13:00, 156.5] on 01-smoker
+ [x] Received [5/22/2021 13:01, 157.8] on 01-smoker
+ [x] Received [5/22/2021 13:01, 157.8] on 01-smoker
+ [x] Received [5/22/2021 13:02, 158.8] on 01-smoker
+ [x] Received [5/22/2021 13:02, 158.8] on 01-smoker
+ [x] Received [5/22/2021 13:03, 159.9] on 01-smoker
+ [x] Received [5/22/2021 13:03, 159.9] on 01-smoker
+ [x] Received [5/22/2021 13:04, 160.7] on 01-smoker
+ [x] Received [5/22/2021 13:04, 160.7] on 01-smoker
+ [x] Received [5/22/2021 13:05, 161.9] on 01-smoker
+ [x] Received [5/22/2021 13:05, 161.9] on 01-smoker
+ [x] Received [5/22/2021 13:06, 163.1] on 01-smoker
+ [x] Received [5/22/2021 13:06, 163.1] on 01-smoker
+ [x] Received [5/22/2021 13:07, 164.3] on 01-smoker
+ [x] Received [5/22/2021 13:07, 164.3] on 01-smoker
+ [x] Received [5/22/2021 13:08, 165.6] on 01-smoker
+ [x] Received [5/22/2021 13:08, 165.6] on 01-smoker
+ [x] Received [5/22/2021 13:09, 166.7] on 01-smoker
+ [x] Received [5/22/2021 13:09, 166.7] on 01-smoker
+ [x] Received [5/22/2021 13:10, 167.8] on 01-smoker
+ [x] Received [5/22/2021 13:10, 167.8] on 01-smoker
+ [x] Received [5/22/2021 13:11, 168.8] on 01-smoker
+ [x] Received [5/22/2021 13:11, 168.8] on 01-smoker
+ [x] Received [5/22/2021 13:12, 170.2] on 01-smoker
+ [x] Received [5/22/2021 13:12, 170.2] on 01-smoker
+ [x] Received [5/22/2021 13:13, 171.7] on 01-smoker
+ [x] Received [5/22/2021 13:13, 171.7] on 01-smoker
+ [x] Received [5/22/2021 13:14, 173.3] on 01-smoker
+ [x] Received [5/22/2021 13:14, 173.3] on 01-smoker
+ [x] Received [5/22/2021 13:15, 174.6] on 01-smoker
+ [x] Received [5/22/2021 13:15, 174.6] on 01-smoker
+ [x] Received [5/22/2021 13:16, 175.5] on 01-smoker
+ [x] Received [5/22/2021 13:16, 175.5] on 01-smoker
+ [x] Received [5/22/2021 13:17, 176.8] on 01-smoker
+ [x] Received [5/22/2021 13:17, 176.8] on 01-smoker
+ [x] Received [5/22/2021 13:18, 177.8] on 01-smoker
+ [x] Received [5/22/2021 13:18, 177.8] on 01-smoker
+ [x] Received [5/22/2021 13:19, 178.9] on 01-smoker
+ [x] Received [5/22/2021 13:19, 178.9] on 01-smoker
+ [x] Received [5/22/2021 13:20, 180.3] on 01-smoker
+ [x] Received [5/22/2021 13:20, 180.3] on 01-smoker
+ [x] Received [5/22/2021 13:21, 181.4] on 01-smoker
+ [x] Received [5/22/2021 13:21, 181.4] on 01-smoker
+ [x] Received [5/22/2021 13:22, 182.6] on 01-smoker
+ [x] Received [5/22/2021 13:22, 182.6] on 01-smoker
+ [x] Received [5/22/2021 13:23, 183.9] on 01-smoker
+ [x] Received [5/22/2021 13:23, 183.9] on 01-smoker
+ [x] Received [5/22/2021 13:24, 184.8] on 01-smoker
+ [x] Received [5/22/2021 13:24, 184.8] on 01-smoker
+ [x] Received [5/22/2021 13:25, 186] on 01-smoker
+ [x] Received [5/22/2021 13:25, 186] on 01-smoker
+ [x] Received [5/22/2021 13:26, 187.1] on 01-smoker
+ [x] Received [5/22/2021 13:26, 187.1] on 01-smoker
+ [x] Received [5/22/2021 13:27, 211.9] on 01-smoker
+ [x] Received [5/22/2021 13:27, 211.9] on 01-smoker
+ [x] Received [5/22/2021 13:28, 215.3] on 01-smoker
+ [x] Received [5/22/2021 13:28, 215.3] on 01-smoker
+ [x] Received [5/22/2021 13:29, 217] on 01-smoker
+ [x] Received [5/22/2021 13:29, 217] on 01-smoker
+ [x] Received [5/22/2021 13:30, 218.6] on 01-smoker
+ [x] Received [5/22/2021 13:30, 218.6] on 01-smoker
+ [x] Received [5/22/2021 13:31, 218.5] on 01-smoker
+ [x] Received [5/22/2021 13:31, 218.5] on 01-smoker
+ [x] Received [5/22/2021 13:32, 219.4] on 01-smoker
+ [x] Received [5/22/2021 13:32, 219.4] on 01-smoker
+ [x] Received [5/22/2021 13:33, 220.5] on 01-smoker
+ [x] Received [5/22/2021 13:33, 220.5] on 01-smoker
+ [x] Received [5/22/2021 13:34, 220.7] on 01-smoker
+ [x] Received [5/22/2021 13:34, 220.7] on 01-smoker
+ [x] Received [5/22/2021 13:35, 222.5] on 01-smoker
+ [x] Received [5/22/2021 13:35, 222.5] on 01-smoker
+ [x] Received [5/22/2021 13:36, 223] on 01-smoker
+ [x] Received [5/22/2021 13:36, 223] on 01-smoker
+ [x] Received [5/22/2021 13:37, 224.7] on 01-smoker
+ [x] Received [5/22/2021 13:37, 224.7] on 01-smoker
+ [x] Received [5/22/2021 13:38, 224.2] on 01-smoker
+ [x] Received [5/22/2021 13:38, 224.2] on 01-smoker
+ [x] Received [5/22/2021 13:39, 223.6] on 01-smoker
+ [x] Received [5/22/2021 13:39, 223.6] on 01-smoker
+ [x] Received [5/22/2021 13:40, 224.6] on 01-smoker
+ [x] Received [5/22/2021 13:40, 224.6] on 01-smoker
+ [x] Received [5/22/2021 13:41, 224.3] on 01-smoker
+ [x] Received [5/22/2021 13:41, 224.3] on 01-smoker
+ [x] Received [5/22/2021 13:42, 226.6] on 01-smoker
+ [x] Received [5/22/2021 13:42, 226.6] on 01-smoker
+ [x] Received [5/22/2021 13:43, 229] on 01-smoker
+ [x] Received [5/22/2021 13:43, 229] on 01-smoker
+ [x] Received [5/22/2021 13:44, 232.8] on 01-smoker
+ [x] Received [5/22/2021 13:44, 232.8] on 01-smoker
+ [x] Received [5/22/2021 13:45, 237.9] on 01-smoker
+ [x] Received [5/22/2021 13:45, 237.9] on 01-smoker
+ [x] Received [5/22/2021 13:46, 200.2] on 01-smoker
+>>> Smoker alert! The temperature of the smoker has decreased by 15 F or more in 2.5 min (or 5 readings).
+          Smoker temp decrease = 32.6 degrees F = 232.8 - 200.2
+ [x] Received [5/22/2021 13:46, 200.2] on 01-smoker
+>>> Smoker alert! The temperature of the smoker has decreased by 15 F or more in 2.5 min (or 5 readings).
+          Smoker temp decrease = 32.6 degrees F = 232.8 - 200.2
+ [x] Received [5/22/2021 13:46, 38.7] on 02-food-A
+>>> Food stall alert! The temperature of food A has changed 1 degree F or less in 10 min (or 20 readings).
+          Food A temp change = 0.0 degrees F = 38.7 - 38.7
+ [x] Received [5/22/2021 13:46, 38.7] on 02-food-A
+>>> Food stall alert! The temperature of food A has changed 1 degree F or less in 10 min (or 20 readings).
+          Food A temp change = 0.0 degrees F = 38.7 - 38.7
+ [x] Received [5/22/2021 13:46, 37] on 03-food-B
+>>> Food stall alert! The temperature of food B has changed 1 degree F or less in 10 min (or 20 readings).
+          Food B temp change = 0.0 degrees F = 37.0 - 37.0
+ [x] Received [5/22/2021 13:46, 37] on 03-food-B
+>>> Food stall alert! The temperature of food B has changed 1 degree F or less in 10 min (or 20 readings).
+          Food B temp change = 0.0 degrees F = 37.0 - 37.0
+ [x] Received [5/22/2021 13:47, 205.9] on 01-smoker
+>>> Smoker alert! The temperature of the smoker has decreased by 15 F or more in 2.5 min (or 5 readings).
+          Smoker temp decrease = 32.0 degrees F = 237.9 - 205.9
+ [x] Received [5/22/2021 13:47, 205.9] on 01-smoker
+>>> Smoker alert! The temperature of the smoker has decreased by 15 F or more in 2.5 min (or 5 readings).
+          Smoker temp decrease = 32.0 degrees F = 237.9 - 205.9
+ [x] Received [5/22/2021 13:47, 37.1] on 02-food-A
+ [x] Received [5/22/2021 13:47, 37.1] on 02-food-A
+ [x] Received [5/22/2021 13:47, 35.3] on 03-food-B
+ [x] Received [5/22/2021 13:47, 35.3] on 03-food-B
+ [x] Received [5/22/2021 13:48, 230] on 01-smoker
+ [x] Received [5/22/2021 13:48, 230] on 01-smoker
+ [x] Received [5/22/2021 13:48, 36.9] on 02-food-A
+ [x] Received [5/22/2021 13:48, 36.9] on 02-food-A
+ [x] Received [5/22/2021 13:48, 35.2] on 03-food-B
+ [x] Received [5/22/2021 13:48, 35.2] on 03-food-B
+ [x] Received [5/22/2021 13:49, 239.6] on 01-smoker
+ [x] Received [5/22/2021 13:49, 239.6] on 01-smoker
+ [x] Received [5/22/2021 13:49, 36.9] on 02-food-A
+ [x] Received [5/22/2021 13:49, 36.9] on 02-food-A
+ [x] Received [5/22/2021 13:49, 35.3] on 03-food-B
+ [x] Received [5/22/2021 13:49, 35.3] on 03-food-B
+ [x] Received [5/22/2021 13:50, 242.4] on 01-smoker
+ [x] Received [5/22/2021 13:50, 242.4] on 01-smoker
+ [x] Received [5/22/2021 13:50, 37.2] on 02-food-A
+ [x] Received [5/22/2021 13:50, 37.2] on 02-food-A
+ [x] Received [5/22/2021 13:50, 35.2] on 03-food-B
+ [x] Received [5/22/2021 13:50, 35.2] on 03-food-B
+ [x] Received [5/22/2021 13:51, 243.1] on 01-smoker
+ [x] Received [5/22/2021 13:51, 243.1] on 01-smoker
+ [x] Received [5/22/2021 13:51, 37.5] on 02-food-A
+ [x] Received [5/22/2021 13:51, 37.5] on 02-food-A
+ [x] Received [5/22/2021 13:51, 35.2] on 03-food-B
+ [x] Received [5/22/2021 13:51, 35.2] on 03-food-B
+ [x] Received [5/22/2021 13:52, 242.6] on 01-smoker
+ [x] Received [5/22/2021 13:52, 242.6] on 01-smoker
+ [x] Received [5/22/2021 13:52, 37.9] on 02-food-A
+>>> Food stall alert! The temperature of food A has changed 1 degree F or less in 10 min (or 20 readings).
+          Food A temp change = -0.8 degrees F = 37.9 - 38.7
+ [x] Received [5/22/2021 13:52, 37.9] on 02-food-A
+>>> Food stall alert! The temperature of food A has changed 1 degree F or less in 10 min (or 20 readings).
+          Food A temp change = -0.8 degrees F = 37.9 - 38.7
+ [x] Received [5/22/2021 13:52, 35.6] on 03-food-B
+ [x] Received [5/22/2021 13:52, 35.6] on 03-food-B
+ [x] Received [5/22/2021 13:53, 241.7] on 01-smoker
+ [x] Received [5/22/2021 13:53, 241.7] on 01-smoker
+ [x] Received [5/22/2021 13:53, 38.4] on 02-food-A
+>>> Food stall alert! The temperature of food A has changed 1 degree F or less in 10 min (or 20 readings).
+          Food A temp change = -0.3 degrees F = 38.4 - 38.7
+ [x] Received [5/22/2021 13:53, 38.4] on 02-food-A
+>>> Food stall alert! The temperature of food A has changed 1 degree F or less in 10 min (or 20 readings).
+          Food A temp change = -0.3 degrees F = 38.4 - 38.7
+ [x] Received [5/22/2021 13:53, 35.7] on 03-food-B
+ [x] Received [5/22/2021 13:53, 35.7] on 03-food-B
+ [x] Received [5/22/2021 13:54, 241.4] on 01-smoker
+ [x] Received [5/22/2021 13:54, 241.4] on 01-smoker
+ [x] Received [5/22/2021 13:54, 39.1] on 02-food-A
+>>> Food stall alert! The temperature of food A has changed 1 degree F or less in 10 min (or 20 readings).
+          Food A temp change = 0.4 degrees F = 39.1 - 38.7
+ [x] Received [5/22/2021 13:54, 39.1] on 02-food-A
+>>> Food stall alert! The temperature of food A has changed 1 degree F or less in 10 min (or 20 readings).
+          Food A temp change = 0.4 degrees F = 39.1 - 38.7
+ [x] Received [5/22/2021 13:54, 36] on 03-food-B
+>>> Food stall alert! The temperature of food B has changed 1 degree F or less in 10 min (or 20 readings).
+          Food B temp change = -1.0 degrees F = 36.0 - 37.0
+ [x] Received [5/22/2021 13:54, 36] on 03-food-B
+>>> Food stall alert! The temperature of food B has changed 1 degree F or less in 10 min (or 20 readings).
+          Food B temp change = -1.0 degrees F = 36.0 - 37.0
+ [x] Received [5/22/2021 13:55, 242.1] on 01-smoker
+ [x] Received [5/22/2021 13:55, 242.1] on 01-smoker
+ [x] Received [5/22/2021 13:55, 39.9] on 02-food-A
+ [x] Received [5/22/2021 13:55, 39.9] on 02-food-A
+ [x] Received [5/22/2021 13:55, 36] on 03-food-B
+>>> Food stall alert! The temperature of food B has changed 1 degree F or less in 10 min (or 20 readings).
+          Food B temp change = -1.0 degrees F = 36.0 - 37.0
+ [x] Received [5/22/2021 13:55, 36] on 03-food-B
+>>> Food stall alert! The temperature of food B has changed 1 degree F or less in 10 min (or 20 readings).
+          Food B temp change = -1.0 degrees F = 36.0 - 37.0
+ [x] Received [5/22/2021 13:56, 241.9] on 01-smoker
+ [x] Received [5/22/2021 13:56, 241.9] on 01-smoker
+ [x] Received [5/22/2021 13:56, 40.6] on 02-food-A
+ [x] Received [5/22/2021 13:56, 40.6] on 02-food-A
+ [x] Received [5/22/2021 13:56, 36.4] on 03-food-B
+>>> Food stall alert! The temperature of food B has changed 1 degree F or less in 10 min (or 20 readings).
+          Food B temp change = -0.6 degrees F = 36.4 - 37.0
+ [x] Received [5/22/2021 13:56, 36.4] on 03-food-B
+ [x] Received [5/22/2021 13:57, 242.1] on 01-smoker
+ [x] Received [5/22/2021 13:57, 242.1] on 01-smoker
+ [x] Received [5/22/2021 13:57, 41.4] on 02-food-A
+ [x] Received [5/22/2021 13:57, 41.4] on 02-food-A
+ [x] Received [5/22/2021 13:57, 36.7] on 03-food-B
+ [x] Received [5/22/2021 13:57, 36.7] on 03-food-B
+ [x] Received [5/22/2021 13:58, 240.4] on 01-smoker
+ [x] Received [5/22/2021 13:58, 240.4] on 01-smoker
+ [x] Received [5/22/2021 13:58, 42.2] on 02-food-A
+ [x] Received [5/22/2021 13:58, 42.2] on 02-food-A
+ [x] Received [5/22/2021 13:58, 37.1] on 03-food-B
+ [x] Received [5/22/2021 13:58, 37.1] on 03-food-B
+ [x] Received [5/22/2021 13:59, 240.2] on 01-smoker
+ [x] Received [5/22/2021 13:59, 240.2] on 01-smoker
+ [x] Received [5/22/2021 13:59, 43.1] on 02-food-A
+ [x] Received [5/22/2021 13:59, 43.1] on 02-food-A
+ [x] Received [5/22/2021 13:59, 37.6] on 03-food-B
+ [x] Received [5/22/2021 13:59, 37.6] on 03-food-B
+ [x] Received [5/22/2021 14:00, 240.1] on 01-smoker
+ [x] Received [5/22/2021 14:00, 240.1] on 01-smoker
+ [x] Received [5/22/2021 14:00, 44.1] on 02-food-A
+ [x] Received [5/22/2021 14:00, 44.1] on 02-food-A
+ [x] Received [5/22/2021 14:00, 38] on 03-food-B
+ [x] Received [5/22/2021 14:00, 38] on 03-food-B
+ [x] Received [5/22/2021 14:01, 239.8] on 01-smoker
+ [x] Received [5/22/2021 14:01, 239.8] on 01-smoker
+ [x] Received [5/22/2021 14:01, 45.1] on 02-food-A
+ [x] Received [5/22/2021 14:01, 45.1] on 02-food-A
+ [x] Received [5/22/2021 14:01, 38.5] on 03-food-B
+ [x] Received [5/22/2021 14:01, 38.5] on 03-food-B
+ [x] Received [5/22/2021 14:02, 239.9] on 01-smoker
+ [x] Received [5/22/2021 14:02, 239.9] on 01-smoker
+ [x] Received [5/22/2021 14:02, 46] on 02-food-A
+ [x] Received [5/22/2021 14:02, 46] on 02-food-A
+ [x] Received [5/22/2021 14:02, 39.2] on 03-food-B
+ [x] Received [5/22/2021 14:02, 39.2] on 03-food-B
+ [x] Received [5/22/2021 14:03, 240.4] on 01-smoker
+
+ERROR: something went wrong.
+The error says: (406, 'PRECONDITION_FAILED - delivery acknowledgement on channel 1 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more')
+
+Closing connection. Goodbye.
+
+(base) PS C:\Users\15736\Documents\A7-Streaming-Final>
