@@ -3,7 +3,7 @@ Module 7 final assignment, option 1. Will be re-making the smart smoker reposito
 Author: Missy Bernskoetter
 Date: February 28, 2023
 I am using Sammie Bever's module 6 repository, which can be found here: 
-https://github.com/s520250/streaming-06-smart-smoker 
+https://github.com/s520250/streaming-06-smart-smoker ***you can also find the smoker-temps.csv here***
 I chose this repository because I wanted to complete one with one sheet for all three consumers. 
 I will be editing the code to match my files:
 SS_producer.py
